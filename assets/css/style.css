@@ -1,0 +1,112 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/assets/fonts/Poppins-Regular.otf);
+  }
+
+body{
+    background-color: #CF1111;
+    color: white;
+}
+
+.logo_Dpay{
+    font-family: poppins;
+    font-size: 24px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.style_register{
+    border: none;
+    height: 50px;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+}
+
+.btn_register{
+    color: white;
+    padding: 5px;
+    background: linear-gradient(to top, #cf1111, #ef5376, #f193c2, #eccdf0, #ffffff);
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius:27px;
+    -webkit-border-radius:27px;
+    -moz-border-radius:27px;
+    -ms-border-radius:27px;
+    -o-border-radius:27px;
+    font-family: poppins;
+    cursor: pointer;
+}
+.btn_register:hover{
+    color:black;
+    transition-duration: 1s
+}
+.Pay{
+    color:#FCDB00;
+}
+.actions{
+    color: white;
+    margin: 25% 25%;
+    text-align: center;   
+}
+
+input[type="text"]{
+    border:none;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+}
+
+.login_{
+    color: white;
+    padding: 5px;
+    background: linear-gradient(to top, #cf1111, #ef5376, #f193c2, #eccdf0, #ffffff);
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius:27px;
+    -webkit-border-radius:27px;
+    -moz-border-radius:27px;
+    -ms-border-radius:27px;
+    -o-border-radius:27px;
+    font-family: poppins;
+    cursor: pointer;
+}
+.login_:hover{
+    color:black;
+    transition-duration: 1s
+}
+.register_{
+    font-family: poppins;
+    color: white;
+    padding: 5px;
+    background: linear-gradient(to top, #cf1111, #ef5376, #f193c2, #eccdf0, #ffffff);
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+    cursor: pointer;
+}
+.register_:hover{
+    color:black;
+    transition-duration: 1s
+}
+.mpd_forget:hover{
+cursor: pointer;
+color: black;
+transition-duration: 1s
+}
+.bg_profil_image{
+    width: 35%;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
